@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-product-crud',
@@ -6,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-crud.component.css']
 })
 export class ProductCrudComponent {
+
+  constructor(private router:Router) {}
+
+  ngOnit(): void {
+
+  }
+
+  navigateToProductCreate(): void {
+    this.router.navigate(['/products/create'])
+  }
+
 
 }
