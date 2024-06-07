@@ -10,14 +10,14 @@ import { Router } from '@angular/router';
 export class ProductCrudComponent {
 
   constructor(private router:Router) {}
-
-  ngOnit(): void {
-
-  }
-
+  
   navigateToProductCreate(): void {
     this.router.navigate(['/products/create'])
   }
-
+  
+  ngOninit(): void {
+    alert("Carregado a pagina produto!")
+  }
+  
 
 }
