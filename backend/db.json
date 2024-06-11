@@ -1,14 +1,11 @@
 {
-  "produtos": [
+  "cep": [
     {
-      "id": "9f8f",
-      "name": "Produto Angular",
-      "price": 125.8
-    },
-    {
-      "id": "7d31",
-      "name": "Produto Angular",
-      "price": 125.8
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo"
     }
   ]
 }
