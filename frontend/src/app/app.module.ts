@@ -13,13 +13,19 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
-import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { RedDirective } from './directives/red.directive';
-import { ForDirective } from './directives/for.directive';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { CeptableComponent } from './components/cep/ceptable/ceptable.component';
+
+import { FormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -28,10 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent,
-    RedDirective,
-    ForDirective,
-    ProductCreateComponent
+    CeptableComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,13 @@ import { HttpClientModule } from '@angular/common/http';
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    FormsModule,
+    MatInputModule,
+    MatFormFieldModule,
 
   ],
   providers: [],

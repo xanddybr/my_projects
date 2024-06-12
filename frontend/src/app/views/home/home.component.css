@@ -1,14 +1,30 @@
 .home .title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
     background-color: #fff;
-    padding: 5px;
+    padding: 20px;
+    color: black;
 }
 
 .home .subtitle {
     font-size: 1.1rem;
     background-color: #fff;
     color: black;
-    padding: 5px;
+    padding: 20px;
+}
+
+.list {
+    background-color: #fff;
+    color: black;
+}
+
+table {
+    /* background-color: rgb(236, 79, 79); */
+    color: black !important;
+    
+}
+
+.inputcep {
+    width: 300px;
 }
